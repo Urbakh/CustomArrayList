@@ -11,8 +11,11 @@ import java.util.Comparator;
 public class CustomArrayList<E> {
 
     private static final int DEFAULT_CAPACITY = 16;
+
     private static final Object[] EMPTY_ELEMENTDATA = {};
+
     private Object[] elementData;
+
     private int size;
 
     /**
